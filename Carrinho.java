@@ -30,7 +30,9 @@ public class Carrinho {
             somaValores = somaValores.add(c.getValorTotal());
         }
         System.out.println("PEDIDO:");
-        System.out.println("Produtos: "+ carrinho.toString()+" Valor Total R$ "+somaValores);
+        System.out.println("Produtos: ");
+        System.out.println(carrinho.toString());
+        System.out.println(" Valor Total em R$: " + somaValores);
 
     }
 

@@ -186,7 +186,8 @@ public class Produto {
 
     @Override
     public String toString() {
-        return this.id + "|" + this.nomeProduto + "|"
-                + this.quantidade +"|" + this.preco + "\n";
+        return this.id + " | " + this.nomeProduto + " | "
+                + this.quantidade +" | " + this.preco + "\n";
+
     }
 }
